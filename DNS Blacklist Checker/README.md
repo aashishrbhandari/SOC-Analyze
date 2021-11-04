@@ -1,24 +1,26 @@
-#### DNS Blacklist Service
+DNS Blacklist Service
 --------------------------
 `I tried a way to get it done as i can`
+
+
 A Simple DNS Blacklist Service API & CLI to get Blacklist details for IP addresses.
 
-##### Note
+### Note
 In Simple words, the Code is taken from  [IsThisIPBad](https://github.com/jgamblin/isthisipbad) and then rewamped and Async IO is applied.
 
-##### Further References:
+### Further References:
  - To Further Optimize it I used Code from here [AsyncIO DNSPython Example](https://stackoverflow.com/questions/30675026/sending-dns-queries-asynchronously-with-asyncio-and-dnspython)
 
-#### Requirements
+### Requirements
 1. Python 3.7+
 2. Download Req `python3 -m pip install flask dnspython`
 
 
-#### How It works
+### How It works
 
 
 
-##### CLI
+#### CLI
 
 <strong> Quick Check: </strong>
 
@@ -27,7 +29,7 @@ root@test-u-18:/# python3 blacklist_checker_cli.py 1.1.1.1
 [['1.1.1.1.cbl.abuseat.org.', '127.0.0.2'], ['1.1.1.1.xbl.spamhaus.org.', '127.0.0.4'], ['1.1.1.1.zen.spamhaus.org.', '127.0.0.4']]
 ```
 
-##### API
+#### API
 
 <strong> Command to Run: </strong>
 
