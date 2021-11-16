@@ -1,0 +1,8 @@
+.form-check-input:checked {
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+}
+
+.mr-2 {
+    margin-right: 2px;
+}
